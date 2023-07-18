@@ -25,7 +25,7 @@ public class Cliente {
         saida = new DataOutputStream(socket.getOutputStream());
         
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite o número do seu CPF");
+        System.out.println("Digite o número do seu CPF para validação");
         String cpf = scanner.nextLine();
         
         saida.writeUTF(cpf);
