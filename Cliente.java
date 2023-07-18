@@ -19,7 +19,7 @@ public class Cliente {
         
         try {
             
-        socket = new Socket("127.0.0.1",13245);
+        socket = new Socket("127.0.0.1",50000);
         
         entrada = new DataInputStream(socket.getInputStream());
         saida = new DataOutputStream(socket.getOutputStream());

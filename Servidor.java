@@ -20,7 +20,7 @@ public class Servidor {
 	    public static void main(String[] args) {
 
 	        try {
-	            server = new ServerSocket(13245); 
+	            server = new ServerSocket(50000); 
 	            System.out.println("Aguardando conexão");
 	            Socket socket = server.accept(); 
 	            System.out.println("Conexão realizada");
